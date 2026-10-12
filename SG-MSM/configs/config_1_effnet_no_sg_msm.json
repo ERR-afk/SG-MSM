@@ -1,0 +1,19 @@
+{
+    "name": "effnet_no_sg_msm",
+    "model_name": "efficientnet_b3",
+    "loss_type": "bce",
+    "learning_rate": 9e-4,
+    "min_learning_rate": 9e-6,
+    "epochs_num": 30,
+    "batch_size": 64,
+    "SG_Mix": null,
+    "no_sg_msm_duplicate": 3,
+    "focal_mixing_probability": 0,
+    "cross_snr_cutmix_probability": 0,
+    "snr_categories": ["S1", "S2", "S3", "S4"],
+    "cutmix_type": "random",
+    "overlap_max": 4,
+    "domain_name": "SNE",
+    "gpu_index": "4",
+    "wandb_name": "effnet_no_sg_msm"
+}
