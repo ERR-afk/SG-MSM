@@ -1,6 +1,6 @@
 # SG-MSM: SNR-Guided Data Augmentation for Mitigating Domain Shift in Avian Bioacoustics
 
-This repository contains the official PyTorch implementation of **SG-MSM**, a multi-stage data augmentation pipeline that explicitly mitigates the focal-to-passive domain shift for avian bioacoustics.
+This repository contains the official PyTorch implementation of **SG-MSM**, a multi-stage data augmentation framework that mitigates the focal-to-passive domain shift for avian bioacoustics.
 
 ## Overview
 Passive acoustic monitoring (PAM) models often suffer from SNR distribution shifts when trained on high-quality focal recordings. SG-MSM utilizes an SNR-Guided Mixing algorithm to blend focal calls with target-site passive noise to construct a robust, multi-label training distribution under low-resource constraints.
