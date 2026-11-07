@@ -52,4 +52,17 @@ python3 src/training.py -c configs/config_5_effnet_full_sg_msm.json
 The script `src/evaluate.py` contains the complete inference pipeline to calculate ROC-AUC, cmAP, and Top-1 Accuracy metrics. It perfectly mirrors the PyTorch Lightning data preprocessing of BirdSet to ensure a fair evaluation baseline.
 
 ## Citation
-If you find this code useful, please cite our TMLR 2026 paper.
+If you find this code or research useful, please cite our TMLR 2026 paper:
+
+```bibtex
+@article{
+r2026sgmsm,
+title={{SG}-{MSM}: {SNR}-Guided Data Augmentation for Mitigating Domain Shift in Avian Bioacoustics},
+author={EZHINI RASENDIRAN R and Chandresh Kumar Maurya},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=qUH4rZhABl},
+note={}
+}
+```
