@@ -49,7 +49,7 @@ python3 src/training.py -c configs/config_5_effnet_full_sg_msm.json
 ```
 
 ### 4. Evaluation
-The script `src/evaluate.py` contains the complete inference pipeline to calculate ROC-AUC, cmAP, and Top-1 Accuracy metrics. It perfectly mirrors the PyTorch Lightning data preprocessing of BirdSet to ensure a fair evaluation baseline.
+The script `src/evaluate.py` contains the complete inference pipeline to calculate ROC-AUC, cmAP, and Top-1 Accuracy metrics.
 
 ## Citation
 If you find this code or research useful, please cite our TMLR 2026 paper:
